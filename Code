@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+double x, y;
+printf("input number: \n");
+scanf("%lf", &x);
+y = sin(x);
+printf("sin of %lf is %lf", &x, &y);
+return 0;
+}
